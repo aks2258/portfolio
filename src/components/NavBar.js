@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Header(props) {
+function NavBar(props) {
 
     return(
         <div className= 'ui top inverted attached menu'>
@@ -11,4 +11,4 @@ function Header(props) {
     )
 }
 
-export default Header
+export default NavBar

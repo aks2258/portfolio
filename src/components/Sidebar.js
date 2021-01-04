@@ -17,6 +17,7 @@ function SidebarNav(props) {
             vertical
             visible={props.toggleMenu}
             width='thin'
+            directions = "right"
           >
             <Menu.Item as= 'a'>
               <Icon name='home' />
