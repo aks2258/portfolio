@@ -10,6 +10,7 @@ export default () => (
                     <Button inverted color='blue'>
                         Typing Test
                     </Button>
+                    <Button>Source Code</Button>
             </div>
     </div>
     <div>
@@ -18,6 +19,7 @@ export default () => (
                 <Button inverted color='black'>
                     Playbase
                 </Button>
+                <Button>Source Code</Button>
             </div>
     </div>
     <div>
@@ -26,6 +28,7 @@ export default () => (
                 <Button  inverted color='green'>
                     Imperfect Gathering
                 </Button>
+                <Button>Source Code</Button>
             </div>
     </div>
   </Carousel>
