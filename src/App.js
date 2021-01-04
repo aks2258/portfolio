@@ -3,11 +3,8 @@ import './App.css';
 import NavBar from "./components/NavBar"
 import SidebarNav from "./components/Sidebar"
 import Projects from "./components/Projects"
-<<<<<<< HEAD
-import cx from 'classnames'
 
-=======
->>>>>>> 568194da625de3c5492e854fe86bff5030bdfddb
+import cx from 'classnames'
 
 function App() {
   
