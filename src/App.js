@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './App.css';
-import Header from "./components/Header"
-import Sidebar from "./components/Sidebar"
+import NavBar from "./components/NavBar"
+import SidebarNav from "./components/Sidebar"
 
 function App() {
   
@@ -13,9 +13,9 @@ function App() {
 
   return (
     <div className="main-page">
-      <Header onToggleMenu={ handleToggleMenu } />
+    <NavBar onToggleMenu={ handleToggleMenu } />
     <div className='ui attached pushable' style ={{height: '100vh'}} >
-      <Sidebar toggleMenu = {toggle}/>
+      <SidebarNav toggleMenu = {toggle}/>
     </div>
     </div>
   );
