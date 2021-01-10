@@ -5,6 +5,7 @@ import {
     Menu,
     Sidebar,
   } from 'semantic-ui-react'
+import { NavLink } from "react-router-dom"
 
 function SidebarNav(props) {
 
@@ -17,17 +18,16 @@ function SidebarNav(props) {
             vertical
             visible={props.toggleMenu}
             width='thin'
-            directions = "right"
           >
-            <Menu.Item as= 'a'>
+            <Menu.Item as= {NavLink} to="/">
               <Icon name='home' />
               Home
             </Menu.Item>
-            <Menu.Item as='a'>
+            <Menu.Item as={ NavLink } to='/projects'>
               <Icon name='archive' />
                     Projects
             </Menu.Item>
-            <Menu.Item as='a'>
+            <Menu.Item as={NavLink} to="contact">
               <Icon name='phone' />
               Contact
             </Menu.Item>
