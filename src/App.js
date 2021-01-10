@@ -4,6 +4,11 @@ import NavBar from "./components/NavBar"
 import SidebarNav from "./components/Sidebar"
 import Projects from "./components/Projects"
 import cx from 'classnames'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
 function App() {
   
@@ -25,7 +30,16 @@ function App() {
     <div className='ui attached pushable' style ={{height: '100vh'}} >
       <SidebarNav toggleMenu = {toggle}/>
       <div className={classes}>
-        <Projects />
+        <Switch>
+          <Route exact path="/">
+            <Main />
+          </Route>
+          <Route path="/projects">
+            <Projects />
+          </Route>
+          <Route path="/contact">
+          </Route>
+        </Switch>
       </div>
     </div>
     </div>
