@@ -3,7 +3,6 @@ import './App.css';
 import NavBar from "./components/NavBar"
 import SidebarNav from "./components/Sidebar"
 import Projects from "./components/Projects"
-
 import cx from 'classnames'
 
 function App() {
