@@ -27,6 +27,7 @@ function About () {
             </object>
             <Container>
                 <Divider />
+                
             </Container>
         </div>
     )
