@@ -8,6 +8,7 @@ import { Container,
 function About () {
     return(
         <div className = "about-div">
+            <br/>
             <Container textAlign="center">
                 <Header as="h1">About Me</Header>
             </Container>
@@ -24,6 +25,9 @@ function About () {
             <object data={certification} type="application/pdf" width="100%" height="600vh">
                 <a href="http://africau.edu/images/default/sample.pdf">to the PDF!</a>
             </object>
+            <Container>
+                <Divider />
+            </Container>
         </div>
     )
 }
