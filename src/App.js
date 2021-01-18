@@ -5,6 +5,7 @@ import SidebarNav from "./components/Sidebar"
 import Projects from "./components/Projects"
 import Main from "./components/Main"
 import About from "./components/About"
+import Contact from "./components/Contact"
 import cx from 'classnames'
 import {
   BrowserRouter as Router,
@@ -44,6 +45,7 @@ function App() {
                 <Projects />
               </Route>
               <Route path="/contact">
+                <Contact />
               </Route>
               <Route path="/about">
                 <About/>
