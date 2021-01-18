@@ -19,6 +19,9 @@ function App() {
   function handleToggleMenu() {
     setToggle(!toggle)
   }
+  function handleSidebarHide() {
+    setToggle(false)
+  }
 
   const classes = cx(
     'pusher',
@@ -31,7 +34,7 @@ function App() {
       <div className="main-page">
         <NavBar onToggleMenu={ handleToggleMenu } />
         <div className='ui attached pushable' style ={{height: '100vh'}} >
-          <SidebarNav toggleMenu = {toggle}/>
+          <SidebarNav toggleMenu = {toggle} handleSidebarHide={handleSidebarHide}/>
           <div className={classes}>
             <Switch>
               <Route exact path="/">

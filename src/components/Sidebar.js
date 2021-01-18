@@ -17,11 +17,12 @@ function SidebarNav(props) {
             inverted
             vertical
             visible={props.toggleMenu}
+            onHide={props.handleSidebarHide}
             width='thin'
           >
             <Menu.Item as= {NavLink} to="/">
               <Icon name='home' />
-              Home
+                Home
             </Menu.Item>
             <Menu.Item as={ NavLink } to='/projects'>
               <Icon name='archive' />
@@ -29,11 +30,11 @@ function SidebarNav(props) {
             </Menu.Item>
             <Menu.Item as={NavLink} to="contact">
               <Icon name='phone' />
-              Contact
+                Contact
             </Menu.Item>
             <Menu.Item as={NavLink} to="about">
               <Icon name='address card' />
-              About Me
+                About Me
             </Menu.Item>
           </Sidebar>
     )
