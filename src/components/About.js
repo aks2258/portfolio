@@ -22,7 +22,7 @@ function About () {
             <Divider />
             </Container>
             <object data={certification} type="application/pdf" width="100%" height="600vh">
-                <p>Alternative text - include a link <a href="http://africau.edu/images/default/sample.pdf">to the PDF!</a></p>
+                <a href="http://africau.edu/images/default/sample.pdf">to the PDF!</a>
             </object>
         </div>
     )
