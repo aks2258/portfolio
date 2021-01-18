@@ -31,6 +31,10 @@ function SidebarNav(props) {
               <Icon name='phone' />
               Contact
             </Menu.Item>
+            <Menu.Item as={NavLink} to="about">
+              <Icon name='address card' />
+              About
+            </Menu.Item>
           </Sidebar>
     )
 }
