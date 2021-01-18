@@ -33,7 +33,7 @@ function SidebarNav(props) {
             </Menu.Item>
             <Menu.Item as={NavLink} to="about">
               <Icon name='address card' />
-              About
+              About Me
             </Menu.Item>
           </Sidebar>
     )
