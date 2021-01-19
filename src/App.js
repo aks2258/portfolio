@@ -4,6 +4,8 @@ import NavBar from "./components/NavBar"
 import SidebarNav from "./components/Sidebar"
 import Projects from "./components/Projects"
 import Main from "./components/Main"
+import About from "./components/About"
+import Contact from "./components/Contact"
 import cx from 'classnames'
 import {
   BrowserRouter as Router,
@@ -18,6 +20,9 @@ function App() {
   function handleToggleMenu() {
     setToggle(!toggle)
   }
+  function handleSidebarHide() {
+    setToggle(false)
+  }
 
   const classes = cx(
     'pusher',
@@ -30,7 +35,7 @@ function App() {
       <div className="main-page">
         <NavBar onToggleMenu={ handleToggleMenu } />
         <div className='ui attached pushable' style ={{height: '100vh'}} >
-          <SidebarNav toggleMenu = {toggle}/>
+          <SidebarNav toggleMenu = {toggle} handleSidebarHide={handleSidebarHide}/>
           <div className={classes}>
             <Switch>
               <Route exact path="/">
@@ -40,6 +45,10 @@ function App() {
                 <Projects />
               </Route>
               <Route path="/contact">
+                <Contact />
+              </Route>
+              <Route path="/about">
+                <About/>
               </Route>
             </Switch>
           </div>

@@ -17,6 +17,7 @@ function SidebarNav(props) {
             inverted
             vertical
             visible={props.toggleMenu}
+            onHide={props.handleSidebarHide}
             width='thin'
           >
             <Menu.Item as= {NavLink} to="/">
@@ -30,6 +31,10 @@ function SidebarNav(props) {
             <Menu.Item as={NavLink} to="contact">
               <Icon name='phone' />
                 Contact
+            </Menu.Item>
+            <Menu.Item as={NavLink} to="about">
+              <Icon name='address card' />
+                About Me
             </Menu.Item>
           </Sidebar>
     )
