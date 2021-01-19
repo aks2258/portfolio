@@ -26,7 +26,7 @@ function SidebarNav(props) {
             </Menu.Item>
             <Menu.Item as={ NavLink } to='/projects'>
               <Icon name='archive' />
-                    Projects
+                Projects
             </Menu.Item>
             <Menu.Item as={NavLink} to="contact">
               <Icon name='phone' />
