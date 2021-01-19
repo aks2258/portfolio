@@ -17,7 +17,6 @@ function Contact () {
             <Card.Group>
                 <Card fluid color='red' header='Linkedin' />
                 <Card fluid color='orange' header='Email' icon="mail"/>
-                <Card fluid color='yellow' header='Option 3' />
             </Card.Group>
             </Container>
         </div>
