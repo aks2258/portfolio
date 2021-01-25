@@ -15,8 +15,8 @@ function Contact () {
             </Container>
             <Container>
             <Card.Group>
-                <Card fluid color='red' header='Linkedin' />
-                <Card fluid color='orange' header='Email' icon="mail"/>
+                <Card fluid color='red' header='Linkedin' href="https://www.linkedin.com/in/arnie-serrano/"/>
+                <Card fluid color='orange' header='Email' icon="mail" href={"mailto:" + "arniekidd@gmail.com"}/>
             </Card.Group>
             </Container>
         </div>
