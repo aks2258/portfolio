@@ -10,11 +10,11 @@ function About () {
         <div className = "about-div">
             <br/>
             <Container textAlign="center">
-                <Header as="h1">About Me</Header>
+                <Header as="h1" color="olive">About Me</Header>
             </Container>
             <Container>
             <Divider />
-            <p>
+            <p className = "about">
                 My name is Arnie Serrano and I am a Software Engineer from Austin, Texas
                 utilizing my Bachelors Degree earned at the University of Texas at Austin
                 combined with my skills that I developed after completeing the immersive 15-week
