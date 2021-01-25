@@ -23,7 +23,6 @@ function About () {
             <Divider />
             </Container>
             <object data={certification} type="application/pdf" width="100%" height="600vh">
-                <a href="http://africau.edu/images/default/sample.pdf">to the PDF!</a>
             </object>
             <Container>
                 <Divider />
