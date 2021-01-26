@@ -17,7 +17,7 @@ function About () {
             <p className = "about">
                 My name is Arnie Serrano, and I’m a frontend 
                 developer with a Bachelor’s of Arts in English 
-                from the University of Texas at Austin, and I use 
+                from the University of Texas at Austin. I use 
                 my understanding of syntax, how written 
                 communication can be interpreted, and my research 
                 skills, to create intuitive apps and websites that 
