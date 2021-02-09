@@ -34,7 +34,7 @@ main {
   justify-content: center;
 }
 
-p {
+.welcome-text {
   cursor: pointer;
   position: relative;
   display: inline-block;
@@ -46,6 +46,10 @@ p {
   background-repeat: no-repeat;
   transition: background 0.2s ease-out;
   white-space: nowrap;
+}
+
+p{
+  color: #fff;
 }
 
 span {
